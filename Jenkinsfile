@@ -23,7 +23,7 @@ pipeline {
 		}
 		stage("Package") {
 			steps {
-				cho "Package app "
+				echo "Package app "
 			}
 		}
 		stage("Deploy") {
