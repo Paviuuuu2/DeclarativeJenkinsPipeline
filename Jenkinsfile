@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage("Compile") {
 		        steps {
-			      echo "Compile app "
+			       "Compile app "
 			}
 		}
 		stage("Build") {
